@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "savalone47 <savalonescott47@gmail.com>",
   "license": "MIT",
+  "publishConfig": { "savalone47": "https://npm.pkg.github.com/" },
   "scripts": {
     "start": "babel-node ./config/index.js",
     "dev:start": "clear; nodemon --exec babel-node config/index.js"
